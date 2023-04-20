@@ -1,0 +1,34 @@
+body{
+    background: navy;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    overflow: auto;
+    word-wrap: break-word;
+    margin: 0;
+    padding: 0;
+    /* margin: auto; */
+}
+
+.container{
+    overflow: hidden;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+
+.validation{
+    position: absolute;
+    background: black;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* display: none; */
+}
